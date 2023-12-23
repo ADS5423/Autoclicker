@@ -14,12 +14,14 @@ def doClick():
     global activated
     while True:
         if activated:
+            print("On!")
             variations = random.choice([0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2])
             Controller().click(Button.left, variations)
             delay = random.uniform(0.05, 0.0709)
             print(delay)
             time.sleep(delay)
         else:
+            print("Off!?")
             pass
 
 print("working!")
