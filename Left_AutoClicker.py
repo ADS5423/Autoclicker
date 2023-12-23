@@ -2,7 +2,7 @@
 import time, random, threading, pynput
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
-TOGGLE_KEY = KeyCode(char='t')
+TOGGLE_KEY = KeyCode(char='r')
 activated = False
 def on_press(key):
     global activated
