@@ -4,6 +4,10 @@ from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
 TOGGLE_KEY = KeyCode(char='t')
 activated = False
+
+def no_work():
+    print("Why you see this?")
+
 def on_press(key):
     global activated
     if key == TOGGLE_KEY:
