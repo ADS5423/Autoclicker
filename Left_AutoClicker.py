@@ -1,5 +1,5 @@
 
-import time, random, threading
+import time, random, threading, pynput
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
 TOGGLE_KEY = KeyCode(char='t')
